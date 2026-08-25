@@ -29,13 +29,15 @@ OUTPUT ?= my-app-web                   # ← build repo name from step 2
 make deploy
 ```
 
+Enable Pages on your GITHUB repository:
+- Settings → Pages → Source: **Deploy from a branch** → Branch: **main**, folder: **/ (root)**
+
 Your app will be available at:
 ```
 https://<GITHUB_USER>.github.io/<OUTPUT>/
 ```
 
-Enable Pages on your GITHUB repository:
-- Settings → Pages → Source: **Deploy from a branch** → Branch: **main**, folder: **/ (root)**
+
 
 ## Commands
 
