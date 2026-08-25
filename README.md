@@ -13,8 +13,6 @@ Copy `makefile` and `deploy.sh` into your Flutter project root.
 Create a **new public repository** on GitHub (e.g. `my-app-web`).
 It will only contain the compiled static files served by GitHub Pages.
 
-Enable Pages:
-- Settings → Pages → Source: **Deploy from a branch** → Branch: **main**, folder: **/ (root)**
 
 ### 3. Configure
 
@@ -35,6 +33,9 @@ Your app will be available at:
 ```
 https://<GITHUB_USER>.github.io/<OUTPUT>/
 ```
+
+Enable Pages on your GITHUB repository:
+- Settings → Pages → Source: **Deploy from a branch** → Branch: **main**, folder: **/ (root)**
 
 ## Commands
 
